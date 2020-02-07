@@ -1,6 +1,16 @@
 {% load static %}
 
 <header class="row">
+  <div class="front-title large-1 columns" >
+    <div
+         {% if LANGUAGE_CODE == "en" %}
+            style="padding-bottom: 11em;"
+         {% endif %}
+    >
+      <a class="logo" href="{% url 'homepage:index' %}"></a>
+    </div>
+  </div>
+  <div class="front-title large-3 columns" >
     {% include 'header/header-left-box.html' %}
     {% include 'header/header-menu-box.html' %}
 </header>

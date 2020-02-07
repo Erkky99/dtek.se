@@ -1,16 +1,16 @@
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
-
-<div class="front-title large-4 columns" >
-    <div class="box"
+<!--<header class="row">-->
+  <div class="box"
          {% if LANGUAGE_CODE == "en" %}
-            style="padding-bottom: 11em;"
+            <!-- style="padding-bottom: 11em;" -->
          {% endif %}
     >
-        <h1>
-            <span class="detail">{% trans "Teknologsektionen" %}</span><br>
-            {% trans "Datateknik" %}<br>
-            <span class="detail">{% trans "Chalmers Studentkår" %}</span>
-        </h1>
+      <h2>
+        <!--<a class="logo" href="{% url 'homepage:index' %}"></a>-->
+        <span class="logo-text">{% trans "Datateknologsektionen" %}<br />
+        <small>{% trans "Chalmers Studentkår" %}</small></span>
+      </h2>
     </div>
+<!--</header>-->
 </div>

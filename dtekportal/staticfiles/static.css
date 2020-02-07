@@ -5777,7 +5777,7 @@ a.subtle-border {
     vertical-align: middle;
     background: url(../datalogo.svg) no-repeat;
     background-size: 88px;
-    color: white;
+    color: black;
     height: 88px;
     width: 100%;
     padding-left: 95px;
@@ -5790,7 +5790,7 @@ a.subtle-border {
 .logo:hover,
 .logo:focus {
     text-decoration: none;
-    color: white
+    color: black
 }
 .logo:active {
     opacity: .9
