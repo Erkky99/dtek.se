@@ -6,3 +6,5 @@ static/*
 logs/*
 db
 variables.env
+dtekportal/homepage/.DS_Store
+dtekportal/staticfiles/images/banners/.DS_Store
