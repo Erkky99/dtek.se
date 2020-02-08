@@ -6079,7 +6079,7 @@ header .page-title {
 }
 h1 {
     font-size: 2.14286em;
-    line-height: 1;
+    /*line-height: 1;*/
     margin-bottom: .618em
 }
 h2 {
@@ -7679,7 +7679,7 @@ i.loading-indicator-feature {
     margin-bottom: 0
 }
 .home .front-title h1 {
-    font-size: 2.7em;
+    font-size: 2.2em;
     font-weight: normal;
     margin: 0
 }
@@ -11320,4 +11320,9 @@ h3 .banner-head {
 .jcrop-holder img,
 img.jcrop-preview {
     max-width: none
+}
+
+.vl {
+  border-left: 2px solid darkgray;
+  height: 80px;
 }

@@ -95,6 +95,20 @@
 
         {% macro_block menu_item %}
             {% macro_arg %}
+                {% trans "Veckobrev" %}
+            {% endmacro_arg %}
+            {% macro_arg %} {% url 'homepage:newsletter' %} {% endmacro_arg %}
+            {% macro_arg %}
+                {% trans "Anmäl dig till datas veckobrev, med alla arrangemang och annat som händer på sektionen" %}
+            {% endmacro_arg %}
+            {% macro_arg %} fa-feed {% endmacro_arg %}
+            {% macro_arg %}False{% endmacro_arg %}
+        {% endmacro_block %}
+
+        <div class="vl"></div>
+
+        {% macro_block menu_item %}
+            {% macro_arg %}
                 {% trans "Schema" %}
             {% endmacro_arg %}
             {% macro_arg %}
@@ -155,18 +169,6 @@
                 fa-map
             {% endmacro_arg %}
             {% macro_arg %}True{% endmacro_arg %}
-        {% endmacro_block %}
-
-        {% macro_block menu_item %}
-            {% macro_arg %}
-                {% trans "Veckobrev" %}
-            {% endmacro_arg %}
-            {% macro_arg %} {% url 'homepage:newsletter' %} {% endmacro_arg %}
-            {% macro_arg %}
-                {% trans "Anmäl dig till datas veckobrev, med alla arrangemang och annat som händer på sektionen" %}
-            {% endmacro_arg %}
-            {% macro_arg %} fa-feed {% endmacro_arg %}
-            {% macro_arg %}False{% endmacro_arg %}
         {% endmacro_block %}
 
         {% macro_block menu_item %}
