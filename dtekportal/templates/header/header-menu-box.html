@@ -79,7 +79,7 @@
 
         {% macro_block menu_item %}
             {% macro_arg %}
-                {% trans "Databussen" %}
+                {% trans "Dbus" %}
             {% endmacro_arg %}
             {% macro_arg %}
                 https://dbus.dtek.se
@@ -90,6 +90,18 @@
             {% macro_arg %}
                 fa-car
             {% endmacro_arg %}
+            {% macro_arg %}False{% endmacro_arg %}
+        {% endmacro_block %}
+
+        {% macro_block menu_item %}
+            {% macro_arg %}
+                {% trans "Mottagningen" %}
+            {% endmacro_arg %}
+            {% macro_arg %} {% url 'homepage:newsletter' %} {% endmacro_arg %}
+            {% macro_arg %}
+                {% trans "Ya yeeet" %}
+            {% endmacro_arg %}
+            {% macro_arg %} fa-envelope-open {% endmacro_arg %}
             {% macro_arg %}False{% endmacro_arg %}
         {% endmacro_block %}
 
@@ -186,5 +198,11 @@
             {% endmacro_arg %}
             {% macro_arg %}True{% endmacro_arg %}
        {% endmacro_block %}
+
     </ul>
+    <!--<ul class="box list text-center">-->
+
+        <!--<div class="vl"></div>-->
+
+    <!--</ul>-->
 </div>

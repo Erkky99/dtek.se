@@ -4,10 +4,12 @@
   <div class="front-title large-1 columns" >
     <div
          {% if LANGUAGE_CODE == "en" %}
-            style="padding-bottom: 11em;"
+            style="padding-bottom: 1em;"
          {% endif %}
     >
-      <a class="logo" href="{% url 'homepage:index' %}"></a>
+      <div class="boxLogo">
+        <a class="logo" href="{% url 'homepage:index' %}"></a>
+      </div>
     </div>
   </div>
   <div class="front-title large-3 columns" >

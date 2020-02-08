@@ -5727,6 +5727,19 @@ a.block:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 2px
 }
+
+.boxLogo {
+  background-color: 0;
+  /*-moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;*/
+  /*box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;*/
+  padding: 0.75em 0.75em;
+  margin-bottom: 1.5em;
+  /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);*/
+  border-radius: 2px;
+  margin-top: -4em
+}
+
 .sep {
     display: inline-block;
     margin: 0 3px;
@@ -7702,7 +7715,7 @@ i.loading-indicator-feature {
     }
 }
 .home .front-title>.box {
-    margin-top: -2em;
+    margin-top: -4em;
     height: 10em;
 }
 @media only screen and (max-width: 930px) {
@@ -7761,7 +7774,7 @@ i.loading-indicator-feature {
 .home .user-area .box {
     height: auto;
     overflow: hidden;
-    margin-top: -1em;
+    margin-top: -3em; -1em;
     margin-bottom: 1em;
 }
 @media screen and (max-width: 64em) {
@@ -7784,7 +7797,7 @@ i.loading-indicator-feature {
     width: 5em;
     flex-basis: 5em;
     padding-top: 1em;
-    font-size: .9em
+    font-size: .9em;
     margin-top: 1em;
 }
 @media screen and (max-width: 40em) {
@@ -7804,7 +7817,8 @@ i.loading-indicator-feature {
     opacity: .8;
     top: 0;
     height: auto;
-    transition: all 0.2s ease-out
+    transition: all 0.2s ease-out;
+    font-size: small;
 }
 .home .quick-buttons a i {
     display: block;
