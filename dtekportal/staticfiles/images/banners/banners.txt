@@ -1,12 +1,10 @@
 back.jpeg
 drust-eldtunna.jpeg.jpg
-drust-grillar.jpeg
 forratt.jpeg
 karhus.jpeg
 kubb.jpeg
 nollan.jpeg
 nollfinalen.jpeg
-preview.jpeg
 coding.jpg
 drone.jpg
 kandidatmiddag19.jpg
@@ -14,3 +12,8 @@ pub.jpg
 brunch.jpeg
 sekt.jpeg
 grillchill.jpeg
+datadamer.jpeg
+piss1.jpeg
+piss2.jpeg
+spel.jpeg
+cray.jpeg
