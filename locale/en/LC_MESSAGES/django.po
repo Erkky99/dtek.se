@@ -108,6 +108,10 @@ msgid "omskriven av"
 msgstr "rewritten by"
 
 #: templates/footer/footer-foot.html:8
+msgid "omstrukturerad av"
+msgstr "restructured by"
+
+#: templates/footer/footer-foot.html:8
 msgid "mer info"
 msgstr "more info"
 
@@ -311,7 +315,7 @@ msgstr ""
 "Phone and email-addresses to contact if you're struggling with your studies, "
 "feeling down, experiencing harassment or discrimination or feel unsafe"
 
-#: templates/top-nav-banner.html:15
+#: templates/header/header-left-box.html:11
 msgid "Datateknologsektionen"
 msgstr "Computer Science and Engineering"
 
