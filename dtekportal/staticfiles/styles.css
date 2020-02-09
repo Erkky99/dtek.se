@@ -5731,7 +5731,7 @@ a.block:hover {
     padding: 0.75em 0.75em;
     margin-bottom: 1.5em;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 2px
+    border-radius: 8px
 }
 
 .boxLogo {
