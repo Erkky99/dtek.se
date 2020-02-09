@@ -4620,6 +4620,12 @@ label small {
     text-transform: capitalize;
     color: #676767
 }
+
+.box small {
+  font-size: .6em;
+  color: #676767
+}
+
 .prefix,
 .postfix {
     border-style: solid;
