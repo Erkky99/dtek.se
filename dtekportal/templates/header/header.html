@@ -11,6 +11,17 @@
       <div class="boxLogo">
         <a class="logo" href="{% url 'homepage:index' %}"></a>
       </div>
+      <div class="box logo-text-box2"
+             {% if LANGUAGE_CODE == "en" %}
+                <!-- style="padding-bottom: 11em;" -->
+             {% endif %}
+        >
+          <h1>
+            <!--<a class="logo" href="{% url 'homepage:index' %}"></a>-->
+            <span class="logo-text">{% trans "Datateknologsektionen" %}<br />
+            <small>{% trans "Chalmers Studentkår" %}</small></span>
+          </h1>
+        </div>
     </div>
   </div>
   <div class="front-title large-3 columns" >

@@ -6685,9 +6685,17 @@ body.logged-in [role="banner"] .header-controls .user-details {
     right: 0;
     top: 0
 }
+
+.logo-text-box2{
+  display: none;
+}
+
 @media screen and (max-width: 1110px) {
-    .logo-text {
-        display: none
+    .logo-text-box1{
+        display: none;
+    }
+    .logo-text-box2{
+        display: block;
     }
 }
 .inner-bar {
